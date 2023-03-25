@@ -1,8 +1,8 @@
 name: 🚀 Fly Deploy
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
+
 jobs:
   deploy:
     name: 🚀 Deploy app
